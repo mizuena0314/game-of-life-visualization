@@ -110,7 +110,7 @@ function sketchGrid(){
 }
 
 function setup() {
-  createCanvas(w,h);
+  createCanvas(window.innerWidth,window.innerHeight);
   findGridspace();
   textFont(fontRegular);
   textSize(30);
